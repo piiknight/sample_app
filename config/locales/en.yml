@@ -1,6 +1,7 @@
 en:
   hello: "Hello world"
   title: " | Ruby on Rails Tutorial Sample App"
+  base_title: "Ruby on Rails Tutorial Sample App"
   static_pages:
     home:
       home_title: "Home"
