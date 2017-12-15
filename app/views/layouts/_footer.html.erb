@@ -1,0 +1,17 @@
+<footer class="footer">
+  <small>
+    <%= t(".footer_content",  rails_link: link_to(t(".href1"), "http://
+      www.railstutorial.org/"), michael_link: link_to(t(".href2"), "http://
+      www.michaelhartl.com/") ).html_safe %>
+  </small>
+  <nav>
+    <ul>
+      <li><%= link_to t("static_pages.about.about_title"), about_path %></li>
+      <li><%= link_to t("static_pages.contact.contact_title"), contact_path %></li>
+      <li>
+      <%= t(".footer_list",
+         news_link: link_to(t(".href3"), "http://news.railstutorial.org/")).html_safe %>
+      </li>
+    </ul>
+  </nav>
+</footer>

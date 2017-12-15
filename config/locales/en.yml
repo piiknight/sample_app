@@ -2,6 +2,18 @@ en:
   hello: "Hello world"
   title: " | Ruby on Rails Tutorial Sample App"
   base_title: "Ruby on Rails Tutorial Sample App"
+  sign_up: "Sign up now!"
+  title_logo: "Logo Rails"
+  sample_app: "sample app"
+  login: "Log in"
+  layouts:
+    footer:
+      footer_content: "The %{rails_link} by %{michael_link}"
+      href1: "Ruby on Rails Tutorial"
+      href2: "Michael Hartl"
+      footer_list: "%{news_link}"
+      href3: "News"
+    header:
   static_pages:
     home:
       home_title: "Home"
@@ -25,4 +37,14 @@ en:
        book: "book"
        screencasts: "screencast series"
        ruby_on_rails: "Ruby on Rails"
+    contact:
+       contact_title: "Contact"
+       contact_h1: "Contact"
+       contact_content: Contact the Ruby on Rails Tutorial about the sample app at the %{ror_contact_link}
+       ror_contact: "contact page"
+  users:
+    new:
+      new_title: "Sign up"
+      new_h1: "Sign up"
+      new_content: "This will be a signup page for new users."
 
