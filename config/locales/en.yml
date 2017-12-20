@@ -1,4 +1,9 @@
 en:
+  shared:
+    error_content: "The form contains %{count_error} ."
+  flash:
+    success: "Welcome to the Sample App!"
+  error_sign_up: "User not found"
   hello: "Hello world"
   title: " | Ruby on Rails Tutorial Sample App"
   base_title: "Ruby on Rails Tutorial Sample App"
