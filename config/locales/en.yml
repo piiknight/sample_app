@@ -3,6 +3,12 @@ en:
     error_content: "The form contains %{count_error} ."
   flash:
     success: "Welcome to the Sample App!"
+  login_page:
+    input_error: "Invalid email/password combination"
+    account: "Account"
+    profile: "Profile"
+    settings: "Settings"
+    logout: "Log out"
   error_sign_up: "User not found"
   hello: "Hello world"
   title: " | Ruby on Rails Tutorial Sample App"
