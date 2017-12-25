@@ -10,6 +10,7 @@ en:
     settings: "Settings"
     logout: "Log out"
     remember_pass: "Remember me on this computer"
+    please_login: "Please log in."
   error_sign_up: "User not found"
   hello: "Hello world"
   title: " | Ruby on Rails Tutorial Sample App"
@@ -59,4 +60,14 @@ en:
       new_title: "Sign up"
       new_h1: "Sign up"
       new_content: "This will be a signup page for new users."
-
+    update: "Profile update"
+    destroy: "User deleted"
+    user_list: "Users"
+    edit:
+      edit_title: "Edit user"
+      edit_h1: "Update your profile"
+      edit_save: "Save changes"
+      edit_change: "change"
+    index:
+      index_title: "All users"
+      index_h1: "All users"

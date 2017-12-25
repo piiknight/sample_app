@@ -4,3 +4,4 @@ User:
   password: 6
   gravatar: 80
   is_remember_pass: "1"
+  gravatar_size: 50
