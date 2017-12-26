@@ -1,4 +1,17 @@
 en:
+  acc_activ:
+    h1: "Sample App"
+    p1: "Hi %{name},"
+    p2: "Welcome to the Sample App! Click on the link below
+     to activate your account:"
+    link: "Activate"
+  email_activated:
+    message1: "Account not activated. "
+    message2: "Check your email for the activation link."
+    check_mail: "Please check your email to activate your account."
+    success: "Account activated!"
+    danger: "Invalid activation link"
+    subject: "Account activation"
   shared:
     error_content: "The form contains %{count_error} ."
   flash:
