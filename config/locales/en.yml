@@ -1,4 +1,34 @@
 en:
+  forgot_password:
+    title: "Forgot password"
+    h1: "Forgot password"
+    submit: "Submit"
+  password_resets:
+    title: "Reset password"
+    h1: "Reset password"
+    confirm: "Confirmation"
+    submit: "Update password"
+  pass_rs:
+    subject: "Password reset"
+    forgot: "(forgot password)"
+    reset: "Reset password"
+    h1: "Password reset"
+    content: "To reset your password click the link below:</br>
+      %{link_edit}.</br>
+      This link will expire in two hours.</br>
+      If you did not request your password to be reset, please ignore this email and
+      our password will stay as it is."
+    text: "To reset your password click the link below:
+      %{link_edit}.
+      This link will expire in two hours.
+      If you did not request your password to be reset, please ignore this email and
+      our password will stay as it is."
+    info: "Email sent with password reset instructions"
+    danger_creat: "Email address not found"
+    success: "Password has been reset."
+    danger_expire: "Password reset has expired."
+    empty: "can't be empty"
+    danger_load: "Could not found user"
   acc_activ:
     h1: "Sample App"
     p1: "Hi %{name},"
