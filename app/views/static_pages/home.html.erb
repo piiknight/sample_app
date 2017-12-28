@@ -1,11 +1,30 @@
+<% if logged_in? %>
+  <div class="row">
+    <aside class="col-md-4">
+      <section class="user_info">
+        <%= render "shared/user_info" %>
+      </section>
+      <section class="micropost_form">
+        <%= render "shared/micropost_form" %>
+      </section>
+    </aside>
+    <div class="col-md-8">
+      <h3><%= t "microposts.feed" %></h3>
+      <%= render "shared/feed" %>
+    </div>
+  </div>
+<% else %>
+  <div class="center jumbotron">
+    <h1><%= t ".home_h1" %></h1>
 
-<div class="center jumbotron">
-  <h1><%= t ".home_h1" %></h1>
-  <p>
-    <%= t(".home_content", rortutorial_link: link_to(t(".ror_tutorial"), "
-      http://www.railstutorial.org/")).html_safe %>
-  </p>
+    <p>
+      <%= t(".home_content", rortutorial_link: link_to(t(".ror_tutorial"), "
+        http://www.railstutorial.org/")).html_safe %>
+    </p>
 
-  <%= link_to t("sign_up"), signup_path, class: "btn btn-lg btn-primary" %>
-</div>
-<%= image_tag("rails.png", alt: t("title_logo"), id: "img-logo") %>
+    <%= link_to t("sign_up"), signup_path, class: "btn btn-lg btn-primary" %>
+  </div>
+
+  <%= image_tag("rails.png", alt: t("title_logo"), id: "img-logo") %>
+<% end %>
+

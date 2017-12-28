@@ -1,4 +1,18 @@
 en:
+  new_acc:
+    creat: "Create my account"
+    confirmation: "Confirmation"
+  microposts:
+    creat: "Micropost created!"
+    delete: "Micropost deleted"
+    link_delete: "delete"
+    sure: "You sure?"
+    timestamp: Posted %{time_ago} ago.
+    text_field: "Compose new micropost..."
+    my_profile: "view my profile"
+    micropost: "micropost"
+    feed: "Micropost Feed"
+    count_micro: "Microposts (%{count})"
   forgot_password:
     title: "Forgot password"
     h1: "Forgot password"

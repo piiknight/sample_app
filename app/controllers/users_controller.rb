@@ -9,6 +9,7 @@ class UsersController < ApplicationController
 
   def show
     @user = User.find_by id: params[:id]
+    @microposts = @user.microposts.paginate(page: params[:page])
     return if @user
     flash[:danger] = t "error_sign_up"
     redirect_to root_path
@@ -52,4 +53,5 @@ class UsersController < ApplicationController
     params.require(:user).permit :name, :email, :password,
       :password_confirmation
   end
+
 end

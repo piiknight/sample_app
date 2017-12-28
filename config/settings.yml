@@ -5,3 +5,6 @@ User:
   gravatar: 80
   is_remember_pass: "1"
   gravatar_size: 50
+Micropost:
+  content: 140
+  gravatar_for: 50
