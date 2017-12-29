@@ -8,3 +8,5 @@ User:
 Micropost:
   content: 140
   gravatar_for: 50
+Follow:
+  gravatar_for: 30

@@ -1,4 +1,12 @@
 en:
+  fl_show: "view my profile"
+  fl_submit: "Follow"
+  unfl_submit: "Unfollow"
+  stats:
+    followers: "followers"
+    following: "following"
+  followers: "Followers"
+  following: "Following"
   new_acc:
     creat: "Create my account"
     confirmation: "Confirmation"
@@ -13,6 +21,7 @@ en:
     micropost: "micropost"
     feed: "Micropost Feed"
     count_micro: "Microposts (%{count})"
+    fl: "Microposts:"
   forgot_password:
     title: "Forgot password"
     h1: "Forgot password"
